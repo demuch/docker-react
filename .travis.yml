@@ -19,5 +19,5 @@ deploy:
   bucket_path: "docker"
   on:
     brach: master
-  acceess_key: $AWS_ACCESS_KEY
+  acceess_key_id: "$AWS_ACCESS_KEY"
   secret_access_key: "$AWS_SECRET_KEY"
